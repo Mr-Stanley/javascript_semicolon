@@ -1,0 +1,1 @@
+var cardNumber = prompt("Enter card number");
