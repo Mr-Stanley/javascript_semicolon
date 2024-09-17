@@ -21,6 +21,27 @@ const counter = { count : 2, steps : 1, increament : function(){
 console.log(counter.increament());
 
 
+const person = { firstName : 'Stanley', lastName : 'Ugochukwu', fullName : function(){
+				return this.firstName +" "+ this.lastName}
+				}
+console.log(person.fullName());
+
+
+
+const person1 = { firstName : 'John', lastName : 'Doe', age : 25};
+
+function propertiesOfPerson (objects) {
+	for (let properties in person1){
+		console.log(properties + ": ", person1[properties])
+		}
+		}
+console.log(propertiesOfPerson(person1));
+
+
+
+			
+
+
 
 
 
